@@ -25,46 +25,46 @@
 
 // count up to 10
 
-function countup (){
-  for (let i = 0; i <= 10; i++) {
-    console.log(i);
-  }
-}
+// function countup (){
+ // for (let i = 0; i <= 10; i++) {
+   // console.log(i);
+//  }
+// }
 
 // countup();
 
 // count down from 10
 
-    for(let i = 10; i >= 1; i--) {
-        console.log(i);
-    }
+   // for(let i = 10; i >= 1; i--) {
+       // console.log(i);
+   // }
 
 // Get all the doubles from 1-10 example: (2,4,6,8,10 ...)
 
-    for(let i = 1; i <= 10; i++) {
-        console.log(i * 2);
-    }
+    // for(let i = 1; i <= 10; i++) {
+      //  console.log(i * 2);
+   // }
 
 // Multiply every other num by 2 from 1-10 example: (1,2,6,8 ...)
 
-    for(let i = 1; i <= 10; i += 2) {
-        console.log(`At index ${i}, this is the double ${i * 2}`);
-    }
+   // for(let i = 1; i <= 10; i += 2) {
+       // console.log(`At index ${i}, this is the double ${i * 2}`);
+   // }
 
 // Check if i is even or odd, 0-10
     // % - modulo , returns a remainder
 
-    for(let i = 0; i <= 10; i++) {
-        console.log("this is the index", i)
-        if (i == 0) {
-          console.log("I am 0");
-        } else if( i%2 == 0){
-            console.log("even")
-        }
-        else {
-            console.log("odd")
-        }
-    }
+   // for(let i = 0; i <= 10; i++) {
+       // console.log("this is the index", i)
+      //  if (i == 0) {
+       //   console.log("I am 0");
+       // } else if( i%2 == 0){
+       //     console.log("even")
+      //  }
+      //  else {
+     //       console.log("odd")
+      //  }
+  //  }
 
 
 // while loops
